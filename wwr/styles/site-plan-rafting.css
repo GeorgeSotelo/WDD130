@@ -2,7 +2,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Radio+Canada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto+Flex:opsz@8..144&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -34,8 +34,9 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
+  font-family: "Radio Canada", "Roboto Flex", serif;
 }
 img {
   display: block;
@@ -43,8 +44,9 @@ img {
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: "Radio Canada", "Roboto Flex", serif;
   color: var(--headline-color-on-white);
+ 
 }
 h2 {
   text-align: center;
@@ -162,4 +164,15 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.home-title {
+  font-family: 'Radio Canada', 'Roboto Flex', sans-serif;
+  font-size: 2em;
+}
+.book, .join {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 18px;
+}
+.msg p {
+  font-size: 8em;
 }
